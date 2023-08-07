@@ -1,7 +1,5 @@
 #!/usr/bin/env python3
-"""execute multiple coroutines
-at the same time with async
-"""
+""" Coroutine at the same time witha sync """
 import asyncio
 import random
 from typing import List
