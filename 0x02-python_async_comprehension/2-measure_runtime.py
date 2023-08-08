@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
-"""a measure_runtime coroutine
-execute async_comprehension
-"""
+"""a measure_runtime coroutine"""
+
 import asyncio
 import time
 from typing import List
