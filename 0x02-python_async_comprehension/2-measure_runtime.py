@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
-"""a measure_runtime coroutine"""
-
+""" Third task from async2 project
+    """
 import asyncio
 import time
 from typing import List
@@ -18,4 +18,3 @@ async def measure_runtime() -> float:
     res = await asyncio.gather(*(async_comprehension() for x in range(4)))
     end = time.time() - start
     return end
-
